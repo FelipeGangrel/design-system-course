@@ -11,9 +11,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@design-system/tokens": "*",
+    "@design-system/ts-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.4"
   }
