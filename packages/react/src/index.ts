@@ -1,3 +1,3 @@
-import { colors } from "@design-system/tokens";
+import { colors } from '@design-system/tokens'
 
-console.log(colors);
+console.log(colors)
