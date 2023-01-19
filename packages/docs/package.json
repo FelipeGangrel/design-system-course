@@ -1,8 +1,12 @@
 {
-  "name": "docs",
+  "name": "@design-system/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^6.5.15",
@@ -19,9 +23,6 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
   }
+  
 }
