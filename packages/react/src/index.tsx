@@ -1,14 +1,30 @@
-import React from 'react'
-
+import { ComponentProps } from 'react'
 import { styled } from './styles'
 
-const StyledButton = styled('button', {
+export const Button = styled('button', {
   fontFamily: '$default',
-  backgroundColor: '$ignite500',
-  borderRadius: '$md',
-  height: '$6',
+  backgroundColor: '$ignite300',
+  color: '$white',
+  borderRadius: '$sm',
+  border: 0,
+  fontWeight: '$bold',
+
+  variants: {
+    size: {
+      small: {
+        fontSize: '$sm',
+        padding: '$2 $4',
+      },
+      big: {
+        fontSize: '$lg',
+        padding: '$3 $6',
+      },
+    },
+  },
+
+  defaultVariants: {
+    size: 'small',
+  },
 })
 
-export const Button: React.FC = () => {
-  return <StyledButton>Hello</StyledButton>
-}
+export type ButtonProps = ComponentProps<typeof Button>
