@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@design-system/tokens'
+} from '@my-design-system/tokens'
 
 export const {
   styled,

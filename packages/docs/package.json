@@ -1,5 +1,5 @@
 {
-  "name": "@design-system/docs",
+  "name": "@my-design-system/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -21,8 +21,10 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "@my-design-system/react": "*",
+    "@my-design-system/tokens": "*",
+    "@my-design-system/eslint-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
-  
 }
