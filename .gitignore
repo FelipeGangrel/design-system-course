@@ -3,7 +3,3 @@ node_modules
 
 # build files
 dist
-
-# lock files
-package.lock.json
-yarn.lock
