@@ -1,6 +1,14 @@
-import { colors } from '@design-system/tokens'
 import React from 'react'
 
+import { styled } from './styles'
+
+const Button = styled('button', {
+  fontFamily: '$default',
+  backgroundColor: '$ignite500',
+  borderRadius: '$md',
+  height: '$6',
+})
+
 export const App: React.FC = () => {
-  return <h1 style={{ color: colors.ignite300 }}>Hello</h1>
+  return <Button>Hello</Button>
 }
