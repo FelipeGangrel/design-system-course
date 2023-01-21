@@ -5,9 +5,8 @@ export default {
   title: 'Typography/Text',
   component: Text,
   args: {
-    as: 'h1',
     css: { color: '$gray100' },
-    children: 'Text',
+    children: 'Custom Text',
   },
 } as Meta<TextProps>
 
