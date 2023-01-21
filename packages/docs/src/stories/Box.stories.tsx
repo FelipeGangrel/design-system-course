@@ -5,14 +5,14 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    css: { color: '$gray100' },
-    children: (
-      <>
-        <Text as="p" size="md">
-          Text here
-        </Text>
-      </>
-    ),
+    children: <Text>Text here</Text>,
+    argTypes: {
+      children: {
+        control: {
+          type: null,
+        },
+      },
+    },
   },
 } as Meta<BoxProps>
 

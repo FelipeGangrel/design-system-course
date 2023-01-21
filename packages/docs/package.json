@@ -22,9 +22,10 @@
   },
   "dependencies": {
     "@my-design-system/eslint-config": "*",
-    "@my-design-system/ts-config": "*",
     "@my-design-system/react": "*",
     "@my-design-system/tokens": "*",
+    "@my-design-system/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -3,9 +3,9 @@ import { styled } from '../styles'
 
 export const Text = styled('span', {
   fontFamily: '$default',
-  fontSize: '$md',
   lineHeight: '$base',
   margin: 0,
+  color: '$gray100',
 
   variants: {
     size: {
@@ -34,3 +34,5 @@ export const Text = styled('span', {
 export type TextProps = ComponentProps<typeof Text> & {
   as?: ElementType
 }
+
+Text.displayName = 'Text'

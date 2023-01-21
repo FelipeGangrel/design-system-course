@@ -1,22 +1,73 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@my-design-system/react'
+import { ArrowRight } from 'phosphor-react'
 
 export default {
   title: 'Common/Button',
   component: Button,
   args: {
     children: 'Button',
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
+  },
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    onClick: { action: 'clicked' },
   },
 } as Meta<ButtonProps>
 
-export const Default: StoryObj<ButtonProps> = {
+export const Primary: StoryObj<ButtonProps> = {}
+
+export const Secondary: StoryObj<ButtonProps> = {
   args: {
-    size: 'small',
+    variant: 'secondary',
+    children: 'Create new',
   },
 }
 
-export const Big: StoryObj<ButtonProps> = {
+export const Tertiary: StoryObj<ButtonProps> = {
   args: {
-    size: 'big',
+    variant: 'tertiary',
+    children: 'Cancel',
+  },
+}
+
+export const Small: StoryObj<ButtonProps> = {
+  args: {
+    size: 'sm',
+  },
+}
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        Next step
+        <ArrowRight weight="bold" />
+      </>
+    ),
+  },
+}
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: {
+    disabled: true,
   },
 }

@@ -5,8 +5,16 @@ export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    css: { color: '$gray100' },
     children: 'Custom Heading',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<HeadingProps>
 
@@ -14,8 +22,8 @@ export const Default: StoryObj<HeadingProps> = {}
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
-    as: 'h2',
-    children: 'H2 Heading',
+    as: 'h1',
+    children: 'H1 Heading',
   },
   parameters: {
     docs: {
