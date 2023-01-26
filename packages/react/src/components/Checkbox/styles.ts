@@ -34,15 +34,6 @@ const slideIn = keyframes({
   },
 })
 
-const slideOut = keyframes({
-  from: {
-    transform: 'translateY(0)',
-  },
-  to: {
-    transform: 'translateY(-100%)',
-  },
-})
-
 export const CheckboxIndicator = styled(Checkbox.Indicator, {
   color: '$white',
   width: '$4',
@@ -50,9 +41,5 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
 
   '&[data-state="checked"]': {
     animation: `${slideIn} 200ms ease-out`,
-  },
-
-  '&[data-state="unchecked"]': {
-    animation: `${slideOut} 200ms ease-out`,
   },
 })
