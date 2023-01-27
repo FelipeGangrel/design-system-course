@@ -19,12 +19,12 @@ export NODE_OPTIONS=--openssl-legacy-provider
 
 ## Components
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box
-- [ ] Button
-- [ ] TextInput
-- [ ] TextArea
-- [ ] Checkbox
-- [ ] Avatar
+- [X] Text
+- [X] Heading
+- [X] Box
+- [X] Button
+- [X] TextInput
+- [X] TextArea
+- [X] Checkbox
+- [X] Avatar
 - [ ] MultiStep
