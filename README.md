@@ -1,16 +1,16 @@
-# Design System
+# Design System Course
 
 ## Docs package
 
-You can append `--use-npm` to use npm instead of yarn.
+You can remove `--use-npm` to use yarn instead of npm.
 
 ```bash
-npx sb init --builder @storybook/builder-vite --type react
+npx sb init --builder @storybook/builder-vite --type react --use-npm
 ```
 
 ### Tips:
 
-If you encounter the error code: `ERR_OSSL_EVP_UNSUPPORTED` when running `yarn dev` or `yarn build`, you can try running the following command on the terminal:
+If you encounter the error code: `ERR_OSSL_EVP_UNSUPPORTED` when running `npm run dev` or `npm run build`, you can try running the following command on the terminal:
 
 ```bash
 export NODE_OPTIONS=--openssl-legacy-provider
@@ -27,4 +27,4 @@ export NODE_OPTIONS=--openssl-legacy-provider
 - [X] TextArea
 - [X] Checkbox
 - [X] Avatar
-- [ ] MultiStep
+- [X] MultiStep
