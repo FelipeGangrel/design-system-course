@@ -11,6 +11,7 @@ export default {
   },
   argTypes: {
     size: {
+      defaultValue: 'md',
       options: [
         'xxs',
         'xs',
@@ -28,7 +29,7 @@ export default {
         '9xl',
       ],
       control: {
-        type: 'inline-radio',
+        type: 'select',
       },
     },
   },
