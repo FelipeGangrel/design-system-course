@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@my-design-system/react'
+import { Button, ButtonProps } from '@design-system-course/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {

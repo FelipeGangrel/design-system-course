@@ -1,5 +1,5 @@
 {
-  "name": "@my-design-system/tokens",
+  "name": "@design-system-course/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@my-design-system/ts-config": "*",
-    "@my-design-system/eslint-config": "*",
+    "@design-system-course/ts-config": "*",
+    "@design-system-course/eslint-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.4"
   }

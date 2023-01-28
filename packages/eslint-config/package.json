@@ -1,5 +1,5 @@
 {
-  "name": "@my-design-system/eslint-config",
+  "name": "@design-system-course/eslint-config",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",

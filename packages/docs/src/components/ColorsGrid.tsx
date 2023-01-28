@@ -1,5 +1,5 @@
 import '../styles/colors-grid.css'
-import { colors } from '@my-design-system/tokens'
+import { colors } from '@design-system-course/tokens'
 import { getContrast } from 'polished'
 
 export const ColorsGrid = () => {
