@@ -1,5 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@design-system-course/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@design-system-course/react'
 
 export default {
   title: 'Form/Text Input',
