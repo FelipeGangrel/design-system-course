@@ -1,12 +1,14 @@
 {
   "private": true,
   "workspaces": [
+    "docs",
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo dev --parallel",
-    "build": "turbo build",
-    "start": "turbo start",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "start": "turbo run start",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=!docs && changeset publish"
