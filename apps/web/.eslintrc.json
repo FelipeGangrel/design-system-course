@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@design-system-course/eslint-config",
+    "next/core-web-vitals"
+  ]
+}
