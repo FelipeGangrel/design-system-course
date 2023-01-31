@@ -1,0 +1,2 @@
+import{A as t}from"./index-a7c6cd97.js";import"./index-39d17dc8.js";import"./es.object.get-own-property-descriptor-037fa860.js";import"./index-f97499ea.js";import"./jsx-runtime-310bfdac.js";const l={title:"Data display/Avatar",component:t,args:{src:"https://github.com/felipegangrel.png",alt:"Felipe Gangrel"},argTypes:{src:{control:{type:"text"}}}},p={},i={args:{src:void 0}},c=["Default","WithFallback"];export{p as Default,i as WithFallback,c as __namedExportsOrder,l as default};
+//# sourceMappingURL=Avatar.stories-9101127c.js.map
